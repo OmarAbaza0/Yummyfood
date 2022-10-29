@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="position-fixed justify-content-center align-items-center loading-screen">
+        <i class="fa-solid fa-spinner text-white fa-spin fa-5x"></i>
+    </div>
+    <!--START STRIP HEADER-->
+    <section>
+        <div class="strip-header-nav">
+            <div class="strip-logo">
+                <img src="images/logo.png" alt="logo image">
+            </div>
+            <div class="strip-toggel-menu">
+                <i class="fa fa-align-justify"></i>
+            </div>
+            <div class="strip-social-icon">
+                <div class="strip-lang p-2">
+                    <span>
+                        <i class="fas fa-globe"></i>
+                    </span>
+                </div>
+                <div class="strip-share ">
+                    <span>
+                        <i class="fas fa-share-alt"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-tab-menu">
+            <div class="nav-item">
+                <ul>
+                    <li id="search" class="item1"><a class="nav-category" data-list="search" href="" id="searchLink">Search</a></li>
+                    <li id="categories" class="item2"><a class="nav-category" data-list="categories" href="" id="categoryLink">Categories</a></li>
+                    <li id="area" class="item3"><a class="nav-category" href="#" data-list="a" id="areaLink">Area</a></li>
+                    <li id="ingredients" class="item5"><a class="nav-category" data-list="i" href="" id="ingredientsLink">Ingredients</a></li>
+                    <li id="contact" class="item6"><a class="nav-category" data-list="contact" id="contactUsLink" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-social-item">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-globe"></i></a>
+                <div class="pt-3">
+                    <span>Copyright © 2022 All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--END STRIP HEADER-->
+    <!-- START OF CONTENT SECTION -->
+
+    <section class="foods my-5 " >
+        <div class="container w-75">
+            <div id="search-container">
+
+            </div>
+                <div class="loading-container">
+                    <div class="sm-loading position-absolute">
+                        <i class="fa fa-spinner fa-spin fa-4x"></i>
+                    </div>
+                </div>
+            <div class="row gy-5 m-auto" id="refreshRes">
+                
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- END OF CONTENT SECTION -->
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
